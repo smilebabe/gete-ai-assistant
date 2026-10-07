@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@gete/core": ["packages/core/src"],
+      "@gete/skills": ["packages/skills/src"],
+      "@gete/ui": ["packages/ui/src"]
+    }
+  }
+}
